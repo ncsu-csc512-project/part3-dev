@@ -21,10 +21,10 @@ Authors:
 
 - [https://github.com/ncsu-csc512-project/part1-dev](https://github.com/ncsu-csc512-project/part1-dev/)
 - [https://github.com/ncsu-csc512-project/part1-submission](https://github.com/ncsu-csc512-project/part1-submission)
-- [https://github.com/ncsu-csc522-project/part2-dev](https://github.com/ncsu-csc522-project/part2-dev)
-- [https://github.com/ncsu-csc522-project/part2-submission](https://github.com/ncsu-csc522-project/part2-submission)
-- [https://github.com/ncsu-csc532-project/part3-dev](https://github.com/ncsu-csc532-project/part3-dev)
-- [https://github.com/ncsu-csc532-project/part3-submission](https://github.com/ncsu-csc532-project/part3-submission)
+- [https://github.com/ncsu-csc512-project/part2-dev](https://github.com/ncsu-csc512-project/part2-dev)
+- [https://github.com/ncsu-csc512-project/part2-submission](https://github.com/ncsu-csc512-project/part2-submission)
+- [https://github.com/ncsu-csc512-project/part3-dev](https://github.com/ncsu-csc512-project/part3-dev)
+- [https://github.com/ncsu-csc512-project/part3-submission](https://github.com/ncsu-csc512-project/part3-submission)
 
 <!-- Two important rules:
 
@@ -38,7 +38,7 @@ We decided that it's best to keep 2 passes separated so that our software is mor
 
 > [!NOTE]  
 > Please follow through previous [2 parts](https://github.com/ncsu-csc512-project/) to get the .so files for each pass.
-> Part 1's Makefile also contains convenient commands to install LLVM 17 and setting up the environment.
+> Part 1's Makefile also contains convenient commands to install LLVM 17 and setting up the environment (just run `make || make` on a **clean** VCL machine).
 
 ```bash
 # don't just copy and run! replace $VARIABLES with your own values
