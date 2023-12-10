@@ -11,7 +11,7 @@
 
 Authors:
 
-- Teddy Xinyuan Chen (xchen87) - Part 1
+- Teddy Xinyuan Chen (xchen87) - Part 1 & 3
 - Haojie Zhou (hzhou33) - Part 2
 
 
