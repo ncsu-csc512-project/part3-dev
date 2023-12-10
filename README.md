@@ -1,9 +1,43 @@
 # Part 3 - Integrating previous 2 parts
 
-We decided that it's best to keep 2 passes separated so that our software is more modular and easier to maintain. So to run part3, you just need to pass both passes to `opt`:
+## General Project Submission Info
+
+<!-- https://gist.github.com/tddschn/7c81e97b3aa088a999cb1d06639d222c -->
+
+<details>
+<summary>Click to expand</summary>
+
+### Project Submission 
+
+Authors:
+
+- Teddy Xinyuan Chen (xchen87) - Part 1
+- Haojie Zhou (hzhou33) - Part 2
+
+
+### GitHub Links
+
+<!-- The repositories are all private, please email [xchen87@ncsu.edu](mailto:xchen87@ncsu.edu) to request for access. -->
+
+- [https://github.com/ncsu-csc512-project/part1-dev](https://github.com/ncsu-csc512-project/part1-dev/)
+- [https://github.com/ncsu-csc512-project/part1-submission](https://github.com/ncsu-csc512-project/part1-submission)
+- [https://github.com/ncsu-csc522-project/part2-dev](https://github.com/ncsu-csc522-project/part2-dev)
+- [https://github.com/ncsu-csc522-project/part2-submission](https://github.com/ncsu-csc522-project/part2-submission)
+- [https://github.com/ncsu-csc532-project/part3-dev](https://github.com/ncsu-csc532-project/part3-dev)
+- [https://github.com/ncsu-csc532-project/part3-submission](https://github.com/ncsu-csc532-project/part3-submission)
+
+<!-- Two important rules:
+
+Make sure you have an empty line after the closing </summary> tag, otherwise the markdown/code blocks won't show correctly.
+Make sure you have an empty line after the closing </details> tag if you have multiple collapsible sections. -->
+</details>
+
+## Running
+
+We decided that it's best to keep 2 passes separated so that our software is more modular and easier to maintain and develop. So to run part3, you just need to pass both passes to `opt`:
 
 > [!NOTE]  
-> Please follow through previous 2 parts to get the .so files for each pass.
+> Please follow through previous [2 parts](#github-links) to get the .so files for each pass.
 > Part 1's Makefile also contains convenient commands to install LLVM 17 and setting up the environment.
 
 ```bash
