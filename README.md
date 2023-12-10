@@ -38,7 +38,7 @@ We decided that it's best to keep 2 passes separated so that our software is mor
 
 > [!NOTE]  
 > Please follow through previous [2 parts](https://github.com/ncsu-csc512-project/) to get the .so files for each pass.
-> Part 1's Makefile also contains convenient commands to install LLVM 17 and setting up the environment (just run ==`make || make`== on a **clean** VCL machine).
+> Part 1's Makefile also contains convenient commands to install LLVM 17 and setting up the environment (just run `make || make` on a **clean** VCL machine).
 
 ```bash
 # don't just copy and run! replace $VARIABLES with your own values
