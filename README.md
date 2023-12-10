@@ -45,3 +45,17 @@ We decided that it's best to keep 2 passes separated so that our software is mor
 # use opt-17 & clang-17 if you come from part 1
 opt -load-pass-plugin $PATH_TO_PART1_REPO/build/BranchPointerPass/libBranchPointerPass.so $PATH_TO_PART2_SO_FILE -passes=branch-pointer-pass,$PASS2_NAME inputs/input.ll  # replace with your own .ll file emitted by clang
 ```
+
+## Test C programs
+
+They are located in `./tests` directory, all from the [TheAlgorithms/C](https://github.com/TheAlgorithms/C) repository, and are real-world programs, each program is around 700 lines.
+
+Please note that they require C standard of at least C99.
+
+```
+tests
+├── hash_blake2b.c
+├── kohonen_som_topology.c
+├── mcnaughton_yamada_thompson.c
+└── red_black_tree.c
+```
