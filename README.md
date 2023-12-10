@@ -37,7 +37,7 @@ Make sure you have an empty line after the closing </details> tag if you have mu
 We decided that it's best to keep 2 passes separated so that our software is more modular and easier to maintain and develop. So to run part3, you just need to pass both passes to `opt`:
 
 > [!NOTE]  
-> Please follow through previous [2 parts](#github-links) to get the .so files for each pass.
+> Please follow through previous [2 parts](https://github.com/ncsu-csc512-project/) to get the .so files for each pass.
 > Part 1's Makefile also contains convenient commands to install LLVM 17 and setting up the environment.
 
 ```bash
