@@ -41,6 +41,7 @@ We decided that it's best to keep 2 passes separated so that our software is mor
 > Part 1's Makefile also contains convenient commands to install LLVM 17 and setting up the environment.
 
 ```bash
+# don't just copy and run! replace $VARIABLES with your own values
 # use opt-17 & clang-17 if you come from part 1
 opt -load-pass-plugin $PATH_TO_PART1_REPO/build/BranchPointerPass/libBranchPointerPass.so $PATH_TO_PART2_SO_FILE -passes=branch-pointer-pass,$PASS2_NAME inputs/input.ll  # replace with your own .ll file emitted by clang
 ```
